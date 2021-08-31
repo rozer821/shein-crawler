@@ -23,5 +23,4 @@
 ## TODO
 1. The uploading logic should be at server side.
 2. The success notification should send from background instead of popup page
-3. 
 
