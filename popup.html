@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>popup</title>
+	<meta charset="utf-8"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<style>
+	body {
+		font-family: 'Microsoft Yahei';
+		width: 500px;
+		min-height: 100px;
+	}
+	</style>
+	<link rel="stylesheet" href="popup.css">
+</head>
+<body>
+	<h1>This page can be picked up！</h1>
+	<div>
+		<button href="#" id="grab">Grab!</button>
+	</div>
+    <h1>Product Info</h1>
+	<div>
+        <div> Title: 
+            <p id="title"></p>
+        </div>
+        <div> Price: 
+            <p id="price"></p>
+        </div>
+        <div id="images"> Images: 
+            
+        </div>
+        <div> Sizes: 
+            <p id="sizes"></p>
+        </div>
+        <div> Colors: 
+            <p id="colors"></p>
+        </div>
+	</div>
+	<div class="flex-container">
+		<div class="flex-child">
+			<button href="#" id="pick">Pick!</button>
+		</div>
+		<div class="flex-child">
+			<div class="loader" id="process"></div>
+		</div>
+	</div>
+    
+</body>
+</html>
+<script type="text/javascript" src="popup.js"></script>
