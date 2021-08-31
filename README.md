@@ -24,3 +24,6 @@
 1. The uploading logic should be at server side.
 2. The success notification should send from background instead of popup page
 
+## One more thing
+Shopify update the store collection asynchronously, so please give Shopify a little bit time to 'prepare' the new product. Usually it will cost less than 30 seconds.
+
