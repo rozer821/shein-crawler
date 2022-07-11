@@ -1,5 +1,5 @@
-# SHEIN-picker
-## This repo is for an assignment
+# shein crawler
+## This is an example repo for demoing crawling data from shein 
 
 ## How to use
 1. Download this repo 
